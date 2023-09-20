@@ -1,0 +1,84 @@
+export const pages = [
+      {
+        id:1,
+        title:"Home",
+        icon:"<AiFillHome/>",
+        route:"/home"
+      },
+      {
+        id:2,
+        title:"Services",
+        icon:"<BiNetworkChart/>",
+        route:"/services"
+      },
+      {
+        id:3,
+        title:"Contact",
+        icon:"<AiFillPhone/>",
+        route:"/contact"
+      },
+      {
+        id:4,
+        title:"Blogs",
+        icon:"<BiSolidBook/>",
+        route:"/blogs"
+      },
+      {
+        id:5,
+        title:"About",
+        icon:"<AiFillQuestionCircle/>",
+        route:"/about"
+      },
+      {
+        id:6,
+        title:"Feedback",
+        icon:"<MdFeedback/>",
+        route:"/feedback"
+      },
+]
+
+export const mainProducts = [
+  {
+    id:1,
+    title:"Moviles",
+    route:"/moviles"
+  },
+  {
+    id:2,
+    title:"Computers",
+    route:"/computers"
+  },
+  {
+    id:3,
+    title:"Tablets",
+    route:"/tablets"
+  },
+  {
+    id:4,
+    title:"TVs",
+    route:"/tvs"
+  },
+]
+
+export const footerLinks = [
+  {
+    id:1,
+    title:"FAQ",
+    route:"/faq"
+  },
+  {
+    id:2,
+    title:"Contact Us",
+    route:"/contact"
+  },
+  {
+    id:3,
+    title:"reviews",
+    route:"/reviews"
+  },
+  {
+    id:4,
+    title:"overview",
+    route:"/overview"
+  },
+]
